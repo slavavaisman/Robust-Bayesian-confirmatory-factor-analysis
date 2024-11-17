@@ -1,0 +1,1571 @@
+[
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@N@distributions@F@LogMultivariateGamma#i#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "LogMultivariateGamma(uint32_t, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 13,
+                "column": 13,
+                "hidden": false
+            },
+            {
+                "usr": "c:Distributions.hpp@N@distributions@T@generator",
+                "kind": 8,
+                "parent_name": "",
+                "name": "generator",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 27,
+                "column": 29,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@RandomState",
+                "kind": 2,
+                "parent_name": "",
+                "name": "RandomState",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 29,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@RandomState@F@GetGenerator#",
+                "kind": 7,
+                "parent_name": "RandomState",
+                "name": "GetGenerator",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 71,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@RandomState@F@GetInstance#l#S",
+                "kind": 7,
+                "parent_name": "RandomState",
+                "name": "GetInstance(uint64_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 80,
+                "column": 61,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@BaseDistribution",
+                "kind": 2,
+                "parent_name": "",
+                "name": "BaseDistribution",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 92,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@BaseDistribution@F@LogBeta#d#d#",
+                "kind": 7,
+                "parent_name": "BaseDistribution",
+                "name": "LogBeta(double, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 103,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@BaseDistribution@F@LogBinomial#d#d#",
+                "kind": 7,
+                "parent_name": "BaseDistribution",
+                "name": "LogBinomial(double, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 108,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@BaseDistribution@F@LogFactorial#i#",
+                "kind": 7,
+                "parent_name": "BaseDistribution",
+                "name": "LogFactorial(uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 113,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@UVContinuousDistribution",
+                "kind": 2,
+                "parent_name": "",
+                "name": "UVContinuousDistribution",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 128,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@UVDiscreteDistribution",
+                "kind": 2,
+                "parent_name": "",
+                "name": "UVDiscreteDistribution",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 137,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@ST>1#T@MVDistribution",
+                "kind": 2,
+                "parent_name": "",
+                "name": "MVDistribution<T>",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 147,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Uniform",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Uniform",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 158,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Uniform@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "Uniform",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 181,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Uniform@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "Uniform",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 186,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Uniform@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "Uniform",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 191,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Uniform@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Uniform",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 197,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Studentst",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Studentst",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 206,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Studentst@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "Studentst",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 231,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Studentst@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "Studentst",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 236,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Studentst@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "Studentst",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 241,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Studentst@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Studentst",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 246,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma1",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Gamma1",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 255,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma1@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "Gamma1",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 276,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma1@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "Gamma1",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 281,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma1@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "Gamma1",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 286,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma1@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Gamma1",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 293,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma2",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Gamma2",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 303,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma2@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "Gamma2",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 325,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma2@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "Gamma2",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 330,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma2@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "Gamma2",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 335,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Gamma2@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Gamma2",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 342,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseGamma2",
+                "kind": 2,
+                "parent_name": "",
+                "name": "InverseGamma2",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 351,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseGamma2@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "InverseGamma2",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 373,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseGamma2@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "InverseGamma2",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 378,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseGamma2@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "InverseGamma2",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 383,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseGamma2@F@Rvs#",
+                "kind": 7,
+                "parent_name": "InverseGamma2",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 390,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Normal",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Normal",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 399,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Normal@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "Normal",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 429,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Normal@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "Normal",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 434,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Normal@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "Normal",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 439,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Normal@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Normal",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 450,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@ChiSquared",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ChiSquared",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 459,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@ChiSquared@F@GetExpectation#",
+                "kind": 7,
+                "parent_name": "ChiSquared",
+                "name": "GetExpectation",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 481,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@ChiSquared@F@GetVariance#",
+                "kind": 7,
+                "parent_name": "ChiSquared",
+                "name": "GetVariance",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 486,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@ChiSquared@F@LogProbDist#d#",
+                "kind": 7,
+                "parent_name": "ChiSquared",
+                "name": "LogProbDist(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 491,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@ChiSquared@F@Rvs#",
+                "kind": 7,
+                "parent_name": "ChiSquared",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 498,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@MVNormal",
+                "kind": 2,
+                "parent_name": "",
+                "name": "MVNormal",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 507,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@MVNormal@F@LogProbDist#I#",
+                "kind": 7,
+                "parent_name": "MVNormal",
+                "name": "LogProbDist(int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 543,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@MVNormal@F@Rvs#",
+                "kind": 7,
+                "parent_name": "MVNormal",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 552,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Wishart",
+                "kind": 2,
+                "parent_name": "",
+                "name": "Wishart",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 567,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Wishart@F@LogProbDist#I#",
+                "kind": 7,
+                "parent_name": "Wishart",
+                "name": "LogProbDist(int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 601,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Wishart@F@Rvs1#",
+                "kind": 7,
+                "parent_name": "Wishart",
+                "name": "Rvs1",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 607,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@Wishart@F@Rvs#",
+                "kind": 7,
+                "parent_name": "Wishart",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 613,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseWishart",
+                "kind": 2,
+                "parent_name": "",
+                "name": "InverseWishart",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 643,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseWishart@F@LogProbDist#I#",
+                "kind": 7,
+                "parent_name": "InverseWishart",
+                "name": "LogProbDist(int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 676,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseWishart@F@Rvs1#",
+                "kind": 7,
+                "parent_name": "InverseWishart",
+                "name": "Rvs1",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 683,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@distributions@S@InverseWishart@F@Rvs#",
+                "kind": 7,
+                "parent_name": "InverseWishart",
+                "name": "Rvs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Distributions.hpp",
+                "line": 689,
+                "column": 23,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator",
+                "kind": 2,
+                "parent_name": "",
+                "name": "ImportanceSamplingEstimator",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 15,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@NormalMargLikl#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#&$@N@NormalCfa@S@Parameters#S0_#S0_#&d#S5_#S5_#i#i#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "NormalMargLikl(std::string, std::string, NormalCfa::Parameters &, std::string, std::string, double &, double &, double &, uint32_t, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 30,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@StudentMargLikl#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#S0_#&$@N@StudentCfa@S@Parameters#S0_#S0_#&d#S5_#S5_#i#i#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "StudentMargLikl(std::string, std::string, StudentCfa::Parameters &, std::string, std::string, double &, double &, double &, uint32_t, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 149,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPLiklihoodStudent#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPLiklihoodStudent(int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 289,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPLiklihoodNormal#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPLiklihoodNormal(int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 305,
+                "column": 17,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetLogPriorNormal#&I#S0_#S0_#S0_#&$@N@distributions@S@InverseGamma2#&$@N@distributions@S@MVNormal#&$@N@distributions@S@Normal#S5_#&$@N@distributions@S@InverseWishart#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetLogPriorNormal(int &, int &, int &, int &, distributions::InverseGamma2 &, distributions::MVNormal &, distributions::Normal &, distributions::Normal &, distributions::InverseWishart &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 321,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetLogPriorStudent#&I#S0_#S0_#S0_#&$@N@distributions@S@InverseGamma2#&$@N@distributions@S@MVNormal#&$@N@distributions@S@Normal#S5_#&$@N@distributions@S@InverseWishart#S0_#S0_#S0_#S0_#&$@N@StudentCfa@S@Parameters#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetLogPriorStudent(int &, int &, int &, int &, distributions::InverseGamma2 &, distributions::MVNormal &, distributions::Normal &, distributions::Normal &, distributions::InverseWishart &, int &, int &, int &, int &, StudentCfa::Parameters &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 339,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetPriorDensitiesStudent#i#i#i#$@N@StudentCfa@S@Parameters#&$@N@inputreader@S@InputReader#&$@N@distributions@S@InverseGamma2#&$@N@distributions@S@MVNormal#&$@N@distributions@S@Normal#S7_#&$@N@distributions@S@InverseWishart#&I#S11_#S11_#S11_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetPriorDensitiesStudent(uint32_t, uint32_t, uint32_t, StudentCfa::Parameters, inputreader::InputReader &, distributions::InverseGamma2 &, distributions::MVNormal &, distributions::Normal &, distributions::Normal &, distributions::InverseWishart &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 357,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetPriorDensitiesNormal#i#i#i#$@N@NormalCfa@S@Parameters#&$@N@inputreader@S@InputReader#&$@N@distributions@S@InverseGamma2#&$@N@distributions@S@MVNormal#&$@N@distributions@S@Normal#S7_#&$@N@distributions@S@InverseWishart#&I#S11_#S11_#S11_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetPriorDensitiesNormal(uint32_t, uint32_t, uint32_t, NormalCfa::Parameters, inputreader::InputReader &, distributions::InverseGamma2 &, distributions::MVNormal &, distributions::Normal &, distributions::Normal &, distributions::InverseWishart &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 395,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPriorPsi#&I#&$@N@distributions@S@InverseGamma2#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPriorPsi(int &, distributions::InverseGamma2 &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 433,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPriorPhi#&I#&$@N@distributions@S@InverseWishart#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPriorPhi(int &, distributions::InverseWishart &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 443,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPriorW#&I#&$@N@distributions@S@MVNormal#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPriorW(int &, distributions::MVNormal &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 448,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@LogPriorL#&I#&$@N@distributions@S@Normal#S1_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "LogPriorL(int &, distributions::Normal &, distributions::Normal &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 460,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@SampleFromISNormalModel#i#i#i#&I#S0_#S0_#S0_#S0_#&d#S0_#S0_#S0_#&$@N@distributions@S@InverseWishart#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "SampleFromISNormalModel(uint32_t, uint32_t, uint32_t, int &, int &, int &, int &, int &, double &, int &, int &, int &, distributions::InverseWishart &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 502,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@SampleFromISStudentModel#i#i#i#&I#S0_#S0_#S0_#S0_#S0_#&d#S0_#S0_#S0_#S0_#&$@N@distributions@S@InverseWishart#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "SampleFromISStudentModel(uint32_t, uint32_t, uint32_t, int &, int &, int &, int &, int &, int &, double &, int &, int &, int &, int &, distributions::InverseWishart &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 539,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetImportanceDensitiesStudent#&1I#S0_#i#i#i#S0_#S0_#S0_#S0_#&I#S1_#S1_#S1_#S1_#S1_#S1_#S1_#&d#S1_#S1_#S1_#S1_#&$@N@distributions@S@InverseWishart#S1_#S1_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetImportanceDensitiesStudent(const int &, const int &, uint32_t, uint32_t, uint32_t, const int &, const int &, const int &, const int &, int &, int &, int &, int &, int &, int &, int &, int &, double &, int &, int &, int &, int &, distributions::InverseWishart &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 580,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetImportanceDensitiesNormal#&1I#S0_#i#i#i#S0_#S0_#S0_#&I#S1_#S1_#S1_#S1_#S1_#&d#S1_#S1_#S1_#S1_#&$@N@distributions@S@InverseWishart#S1_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetImportanceDensitiesNormal(const int &, const int &, uint32_t, uint32_t, uint32_t, const int &, const int &, const int &, int &, int &, int &, int &, int &, int &, double &, int &, int &, int &, int &, distributions::InverseWishart &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 661,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetImportanceDensitiesNormalTest#&1I#S0_#i#i#i#S0_#S0_#S0_#&I#S1_#S1_#S1_#S1_#S1_#&d#S1_#S1_#S1_#S1_#&$@N@distributions@S@InverseWishart#S1_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetImportanceDensitiesNormalTest(const int &, const int &, uint32_t, uint32_t, uint32_t, const int &, const int &, const int &, int &, int &, int &, int &, int &, int &, double &, int &, int &, int &, int &, distributions::InverseWishart &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 726,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetStructureFromVectorNormal#&I#S0_#i#i#i#S0_#S0_#S0_#S0_#&1I#S1_#S1_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetStructureFromVectorNormal(int &, int &, uint32_t, uint32_t, uint32_t, int &, int &, int &, int &, const int &, const int &, const int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 793,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@GetStructureFromVectorStudent#&I#S0_#i#i#i#S0_#S0_#S0_#S0_#S0_#&1I#S1_#S1_#S1_#S1_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "GetStructureFromVectorStudent(int &, int &, uint32_t, uint32_t, uint32_t, int &, int &, int &, int &, int &, const int &, const int &, const int &, const int &, const int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 804,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@StudentGetStructureIDs#i#i#i#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "StudentGetStructureIDs(uint32_t, uint32_t, uint32_t, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 817,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@IS@S@ImportanceSamplingEstimator@F@NormalGetStructureIDs#i#i#i#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "ImportanceSamplingEstimator",
+                "name": "NormalGetStructureIDs(uint32_t, uint32_t, uint32_t, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/ImportanceSamplingEstimator.hpp",
+                "line": 857,
+                "column": 15,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@N@inputreader@S@InputReader",
+                "kind": 2,
+                "parent_name": "",
+                "name": "InputReader",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 15,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetData#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetData",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 58,
+                "column": 24,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetColumnNames#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetColumnNames",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 63,
+                "column": 39,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetFactorLoadingMatrixPattern#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetFactorLoadingMatrixPattern",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 69,
+                "column": 52,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetNumFactorsQ#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetNumFactorsQ",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 74,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetNumOfPeopleN#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetNumOfPeopleN",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 79,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@GetNumVariablesP#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "GetNumVariablesP",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 84,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@DataReadFromCsv#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#&I#S3_#S3_#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "DataReadFromCsv(std::string, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 91,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@inputreader@S@InputReader@F@SyntaxRead#$@N@std@N@__cxx11@S@basic_string>#C#$@N@std@S@char_traits>#C#$@N@std@S@allocator>#C#&i#S3_#&I#S4_#S4_#",
+                "kind": 7,
+                "parent_name": "InputReader",
+                "name": "SyntaxRead(std::string, uint32_t &, uint32_t &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/InputReader.hpp",
+                "line": 139,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@N@NormalCfa@S@Parameters",
+                "kind": 3,
+                "parent_name": "",
+                "name": "Parameters",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 20,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA",
+                "kind": 2,
+                "parent_name": "",
+                "name": "NormCFA",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 41,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@DoGibbs#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "DoGibbs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 79,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@SampleLType#&I#S0_#S0_#S0_#S0_#I#d#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "SampleLType(int &, int &, int &, int &, int &, int, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 160,
+                "column": 27,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@SampleL#&I#S0_#S0_#S0_#S0_#I#I#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "SampleL(int &, int &, int &, int &, int &, int, int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 189,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@SampleW#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "SampleW(int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 196,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@SamplePhi#&I#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "SamplePhi(int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 216,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@SamplePsi#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "SamplePsi(int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 223,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@InitGibbs#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "InitGibbs(int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 241,
+                "column": 18,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@InitGibbs0#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "InitGibbs0(int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 306,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@CreatePosteriorVarNames#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "CreatePosteriorVarNames",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 360,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPrior#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPrior(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 407,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPriorPsi#&1I#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPriorPsi(const int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 426,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPriorPhi#&I#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPriorPhi(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 437,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPriorW#&I#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPriorW(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 443,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPriorL#&I#S0_#d#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPriorL(int &, int &, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 459,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogPLikl#&I#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogPLikl(int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 474,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@LogLiklFromRow#I#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "LogLiklFromRow(int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 489,
+                "column": 22,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@NormalCfa@S@NormCFA@F@VectorToDataStructure#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "NormCFA",
+                "name": "VectorToDataStructure(int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/NormCFA.hpp",
+                "line": 503,
+                "column": 18,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@N@StudentCfa@S@Parameters",
+                "kind": 3,
+                "parent_name": "",
+                "name": "Parameters",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 22,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA",
+                "kind": 2,
+                "parent_name": "",
+                "name": "StudentTCFA",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 46,
+                "column": 7,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@DoGibbs#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "DoGibbs",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 87,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleW#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleW(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 174,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleZ#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleZ(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 197,
+                "column": 14,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SamplePhi#&I#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SamplePhi(int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 220,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleLType#&I#S0_#S0_#S0_#S0_#I#d#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleLType(int &, int &, int &, int &, int &, int, double, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 227,
+                "column": 15,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleL#&I#S0_#S0_#S0_#S0_#I#I#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleL(int &, int &, int &, int &, int &, int, int, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 259,
+                "column": 23,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SamplePsi#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SamplePsi(int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 268,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@CreatePosteriorVarNames#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "CreatePosteriorVarNames",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 287,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@InitGibbs#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "InitGibbs(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 341,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@InitGibbs0#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "InitGibbs0(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 407,
+                "column": 12,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@logfnuk#d#i#d#d#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "logfnuk(double, uint32_t, double, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 465,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@logfnukder1#d#i#d#d#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "logfnukder1(double, uint32_t, double, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 474,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@logfnukder2#d#i#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "logfnukder2(double, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 483,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@RunNewtonRaphson#d#d#&I#i#&d#S1_#d#d#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "RunNewtonRaphson(double, double, int &, uint32_t, double &, double &, double, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 490,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleMhNuk#d#d#&I#i#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleMhNuk(double, double, int &, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 517,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@SampleNu#&I#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "SampleNu(int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 548,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogLiklFromRow#I#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogLiklFromRow(int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 558,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPLikl#&I#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPLikl(int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 573,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@VectorToDataStructure#&I#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "VectorToDataStructure(int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 588,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPrior#&I#S0_#S0_#S0_#S0_#S0_#S0_#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPrior(int &, int &, int &, int &, int &, int &, int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 622,
+                "column": 8,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPriorNu#&1I#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPriorNu(const int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 645,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPriorPsi#&1I#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPriorPsi(const int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 651,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPriorPhi#&I#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPriorPhi(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 662,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPriorW#&I#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPriorW(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 668,
+                "column": 20,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@StudentCfa@S@StudentTCFA@F@LogPriorL#&I#S0_#d#",
+                "kind": 7,
+                "parent_name": "StudentTCFA",
+                "name": "LogPriorL(int &, int &, double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/StudentTCFA.hpp",
+                "line": 684,
+                "column": 20,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:Utilities.hpp@133@macro@PBSTR",
+                "kind": 9,
+                "parent_name": "",
+                "name": "PBSTR",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 9,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:Utilities.hpp@210@macro@PBWIDTH",
+                "kind": 9,
+                "parent_name": "",
+                "name": "PBWIDTH",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 10,
+                "column": 9,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintProgressBar#d#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintProgressBar(double)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 17,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:Utilities.hpp@N@utilities@T@Timer",
+                "kind": 8,
+                "parent_name": "",
+                "name": "Timer",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 29,
+                "column": 30,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@VecToStd#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "VecToStd(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 33,
+                "column": 25,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@StdToVec#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "StdToVec(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 39,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@MatToStd#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "MatToStd(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 45,
+                "column": 38,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@StdToMat#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "StdToMat(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 56,
+                "column": 16,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintStdVector#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintStdVector(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 69,
+                "column": 11,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintStdVector#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintStdVector(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 77,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintStdVector#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintStdVector(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 85,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintStdMatrix#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintStdMatrix(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 94,
+                "column": 10,
+                "hidden": false
+            },
+            {
+                "usr": "c:@N@utilities@F@PrintStdMatrix#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "PrintStdMatrix(int &)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/Utilities.hpp",
+                "line": 102,
+                "column": 10,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    },
+    {
+        "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/tCfaRGate.cpp",
+        "file_last_write": 1725763365.0,
+        "definitions": [
+            {
+                "usr": "c:@F@NormalCFA#I#I#I#I#d#d#d#d#d#i#i#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "NormalCFA(std::string, std::string, std::string, std::string, double, double, double, double, double, uint32_t, uint32_t, int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/tCfaRGate.cpp",
+                "line": 35,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@StudentCFA#I#I#I#I#d#d#d#d#d#d#i#i#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "StudentCFA(std::string, std::string, std::string, std::string, double, double, double, double, double, double, uint32_t, uint32_t, int)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/tCfaRGate.cpp",
+                "line": 65,
+                "column": 6,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@NormalCalculateMargLikl#I#I#I#I#d#d#d#d#d#i#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "NormalCalculateMargLikl(std::string, std::string, std::string, std::string, double, double, double, double, double, uint32_t, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/tCfaRGate.cpp",
+                "line": 96,
+                "column": 21,
+                "hidden": false
+            },
+            {
+                "usr": "c:@F@StudentCalculateMargLikl#I#I#I#I#d#d#d#d#d#d#i#i#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "StudentCalculateMargLikl(std::string, std::string, std::string, std::string, double, double, double, double, double, double, uint32_t, uint32_t)",
+                "file": "/home/slava/Desktop/CurrentProjects/tCFA_R1/code/tCFA/src/tCfaRGate.cpp",
+                "line": 125,
+                "column": 21,
+                "hidden": false
+            }
+        ],
+        "hidden": false
+    }
+]

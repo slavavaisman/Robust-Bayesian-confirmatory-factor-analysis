@@ -1,0 +1,11 @@
+Package: tCFA
+Type: Package
+Title: What the package does (short line)
+Version: 1.0
+Date: 2024-02-06
+Author: Radislav Vaisman
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: The paclage implements robust Bayesian confirmatory factor analysis.
+License: 
+Imports: Rcpp (>= 1.0.11)
+LinkingTo: Rcpp, RcppArmadillo

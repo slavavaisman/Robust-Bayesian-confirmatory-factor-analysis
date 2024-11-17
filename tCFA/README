@@ -1,0 +1,17 @@
+This code is free to use for academic purposes only.
+
+This code comes without technical support of any kind. It is expected to
+reproduce the results reported in the paper:
+
+On the benefit of robust Bayesian confirmatory factor analysis, by Radislav Vaismana Mitchell Scovell, Nikolai Kinaev, and Javier Fernandez
+Structural Equation Modeling: A Multidisciplinary Journal (2024)
+
+Under no circumstances will the author be held responsible for any use (or misuse) of this code in any way.
+
+Installation instructions
+
+In R install the "RcppArmadillo" package via install.packages("RcppArmadillo")
+The code relies on C++ boost library versin 1.74. 
+
+
+

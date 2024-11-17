@@ -1,0 +1,28 @@
+{
+    "args": [
+        "-std=gnu++14",
+        "-I/usr/share/R/include",
+        "-DNDEBUG",
+        "-fopenmp",
+        "-fpic",
+        "-ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=.",
+        "-fstack-protector-strong",
+        "-D_FORTIFY_SOURCE=2",
+        "-I/home/slava/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include",
+        "-DEIGEN_DONT_VECTORIZE",
+        "-I/usr/lib/llvm-14/lib/clang/14.0.6/include",
+        "-I/usr/include/c++/12",
+        "-I/usr/include/x86_64-linux-gnu/c++/12",
+        "-I/usr/include/c++/12/backward",
+        "-I/usr/lib/gcc/x86_64-linux-gnu/12/include",
+        "-I/usr/local/include",
+        "-I/usr/include/x86_64-linux-gnu",
+        "-I/usr/include"
+    ],
+    "pch": "RcppArmadillo",
+    "is_cpp": true,
+    "hash": "172576336517257633651725763365",
+    "compiler": "1522460900758426487",
+    "rversion": "4.2.2",
+    "dbversion": 4
+}
